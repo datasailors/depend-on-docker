@@ -8,5 +8,5 @@ else
 	MODE=-it
 fi 
 
-docker container run ${CONTAINER} ${MODE} ${NETWORK} ${PORT_MAP} ${VOL_MAP} ${REGISTRY}${IMAGE}${TAG} $@
+docker container run ${CONTAINER_MAP} ${MODE} ${NETWORK} ${PORT_MAP} ${VOL_MAP} ${REGISTRY}${IMAGE}${TAG} $@
 
