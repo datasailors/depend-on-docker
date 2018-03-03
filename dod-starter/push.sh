@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. env.sh
+source .env
 
-docker push ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_IMAGE_TAG}
+docker push ${REGISTRY}${IMAGE}${TAG}
 

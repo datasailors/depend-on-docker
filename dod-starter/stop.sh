@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. env.sh
+source .env
 
-docker container rm -f ${DOCKER_CONTAINER}
+docker container rm -f ${CONTAINER}
 

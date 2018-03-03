@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. env.sh
+source .env
 
-docker ps -a | grep ${DOCKER_CONTAINER}
+docker ps -a | grep ${CONTAINER}
 

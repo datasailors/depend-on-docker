@@ -1,6 +1,12 @@
 #!/bin/bash
 
-. env.sh
+source .env
 
-docker container run --name ${DOCKER_CONTAINER} -d -p ${PORT}:8000 ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_IMAGE_TAG}
+if [ -z "$1" ]; then
+	MODE=-d
+else
+	MODE=-it
+fi 
+
+docker container run ${CONTAINER} ${MODE} ${NETWORK} ${PORT_MAP} ${VOL_MAP} ${REGISTRY}${IMAGE}${TAG} $@
 
