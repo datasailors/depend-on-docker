@@ -8,5 +8,5 @@ else
 	CMD=$@
 fi
 
-docker container exec --name ${CONTAINER} $CMD 
+docker container exec -it --name ${CONTAINER} $CMD 
 
