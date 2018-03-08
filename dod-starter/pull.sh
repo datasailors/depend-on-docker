@@ -2,5 +2,5 @@
 
 source .env
 
-docker pull ${REGISTRY}${IMAGE}${TAG}
+docker image pull ${REGISTRY}${IMAGE}${TAG}
 

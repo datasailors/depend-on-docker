@@ -2,5 +2,5 @@
 
 source .env
 
-docker push ${REGISTRY}${IMAGE}${TAG}
+docker image push ${REGISTRY}${IMAGE}${TAG}
 
