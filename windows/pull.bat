@@ -1,6 +1,6 @@
-#!/bin/bash
+@echo off
 
-source .env
+call env
 
-docker image pull ${REGISTRY}${IMAGE}${TAG}
+docker image pull %REGISTRY%%IMAGE%%TAG%
 

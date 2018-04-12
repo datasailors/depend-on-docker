@@ -1,6 +1,6 @@
-#!/bin/bash
+@echo off
 
-source .env
+call env
 
-docker image push ${REGISTRY}${IMAGE}${TAG}
+docker image push %REGISTRY%%IMAGE%%TAG%
 

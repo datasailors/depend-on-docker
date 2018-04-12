@@ -1,6 +1,6 @@
-#!/bin/bash
+@echo off
 
-source .env
+call env
 
-docker container logs -f ${CONTAINER}
+docker container logs -f %CONTAINER%
 

@@ -1,12 +1,12 @@
-#!/bin/bash
+@echo off
 
-source .env
+call env
 
-if [ -z "$1" ]; then
-	MODE=-d
-else
-	MODE=-it
-fi 
+if "%1" == "" (
+	set MODE=-d
+) else (
+	set MODE=-it
+) 
 
-docker container run ${RUN_OPTS} ${CONTAINER_NAME} ${MODE} ${NETWORK} ${PORT_MAP} ${VOL_MAP} ${REGISTRY}${IMAGE}${TAG} $@
+docker container run %RUN_OPTS% %CONTAINER_NAME% %MODE% %NETWORK% %PORT_MAP% %VOL_MAP% %REGISTRY%%IMAGE%%TAG% %*
 

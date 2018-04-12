@@ -1,12 +1,12 @@
-#!/bin/bash
+@echo off
 
-source .env
+call env
 
-if [ "$1" == "" ]; then
-	CMD=bash
-else
-	CMD=$@
-fi
+if "%1" == "" (
+	set C=cmd
+) else (
+	set C=%*
+)
 
-docker container exec -it ${CONTAINER} $CMD 
+docker container exec -it %CONTAINER% %C% 
 

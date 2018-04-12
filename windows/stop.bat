@@ -1,6 +1,6 @@
-#!/bin/bash
+@echo off
 
-source .env
+call env
 
-docker container rm -f ${CONTAINER}
+docker container rm -f %CONTAINER%
 

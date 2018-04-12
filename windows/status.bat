@@ -1,6 +1,6 @@
-#!/bin/bash
+@echo off
 
-source .env
+call env
 
-docker ps -a | grep ${CONTAINER}
+docker ps -a | findstr /R /C:"%CONTAINER%"
 

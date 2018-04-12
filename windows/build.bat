@@ -1,6 +1,7 @@
+@echo off
 
-call .env
+call env
 
-# Build Docker image
+rem Build Docker image
 docker image build %BUILD_OPTS% -t %REGISTRY%%IMAGE%%TAG% .
 

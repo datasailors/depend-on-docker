@@ -1,4 +1,4 @@
-FROM windowsservercore
+FROM microsoft/windowsservercore
 
 MAINTAINER My Name <email@company.com>
 
