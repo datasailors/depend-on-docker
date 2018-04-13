@@ -2,11 +2,11 @@
 Depend on Docker (DoD) is an open source project that makes any software easy to build, ship, and run!
 It removes complexity by containerizing your executables and all of their dependencies. 
 
-# Your only dependency - Docker
+# Your only dependency
 If you haven't done so already, please install [Docker](https://www.docker.com/get-docker)
 
-# Start a depend-on-docker project
-This project works on both Linux and Windows. It strives to drastically simplify your development process and make it easy to build Docker containers by providing an intuitive project template. To start a project, you can execute the corresponding create script, or just run the command line relevant to your operating system below.
+# Create your depend-on-docker project
+This project works on both Linux and Windows. It strives to drastically simplify your development process and make it easy to build Docker containers by providing an intuitive project template. To create a project, you can execute the corresponding script, or just run the command line relevant to your operating system below.
 
 ## Linux, MacOS
 
