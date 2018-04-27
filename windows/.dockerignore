@@ -1,2 +1,11 @@
 *.sh
-.env
+env.cmd
+fun.cmd
+build.bat
+exec.bat
+logs.bat
+pull.bat
+push.bat
+run.bat
+status.bat
+stop.bat
