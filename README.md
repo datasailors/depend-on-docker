@@ -45,6 +45,7 @@ Any artifact placed in the Container-Root folder of this project is copied into 
     Linux: Container-Root/setup.sh, Windows: Container-Root\setup.bat
     
 The setup script file is copied into the root of the container image and executed at build time. Rather than customizing the Dockerfile, the setup script file is a good location for placing all of the project-specific commands you would like to execute when setting up the software in your container image.
+The Dockerfile can be modified to further customize your project, however that is not required.
 
 ## Startup script file
 
