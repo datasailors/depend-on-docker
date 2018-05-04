@@ -19,5 +19,5 @@ echo ""
 echo ""
 
 #docker container run --rm -it -v ${dest}:/wd iankoulski/svn sh -c "svn checkout ${dod_url} /wd"
-docker container run --rm -it -v ${dest}:/wd iankoulski/svn sh -c "svn checkout --trust-server-cert --non-interactive --username ${username} --password ${password} ${dod_url} /wd"
+docker container run --rm -it -v ${dest}:/wd iankoulski/svn sh -c "svn checkout --trust-server-cert --non-interactive --username ${username} --password ${password} ${dod_url} /wd && rm -rf /wd/.svn"
 

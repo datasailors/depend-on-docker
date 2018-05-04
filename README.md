@@ -14,7 +14,7 @@ This project works on both Linux and Windows. It strives to drastically simplify
 
 or
 
-    docker container run --rm -it -v $(pwd):/wd iankoulski/svn sh -c "svn checkout https://github.build.ge.com/200018807/depend-on-docker/trunk/linux/ /wd"
+    docker container run --rm -it -v $(pwd):/wd iankoulski/svn sh -c "svn checkout https://github.build.ge.com/200018807/depend-on-docker/trunk/linux/ /wd && rm -rf /wd/.svn"
 
 ## Windows
 
