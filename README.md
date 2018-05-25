@@ -14,7 +14,13 @@ This project works on both Linux and Windows. It strives to drastically simplify
 
 or
 
-    docker container run --rm -it -v $(pwd):/wd iankoulski/svn sh -c "svn checkout https://github.build.ge.com/200018807/depend-on-docker/trunk/linux/ /wd && rm -rf /wd/.svn"
+    docker container run --rm -it -v $(pwd):/wd iankoulski/svn sh -c "svn checkout https://github.com/iankoulski/depend-on-docker/trunk/linux/ /wd && rm -rf /wd/.svn"
+
+or
+
+    curl -L http://bit.ly/depend-on-docker | bash -s -- $(pwd)
+
+$(pwd) may be replaced with the desired path where you would like your new depend-on-docker project created
 
 ## Windows
 
@@ -22,7 +28,12 @@ or
 
 or
 
-    docker container run --rm -it -v "%cd%":"c:\wd" iankoulski/win-svn cmd /C "cd c:\wd && svn checkout https://github.build.ge.com/200018807/depend-on-docker/trunk/windows/" 
+    docker container run --rm -it -v "%cd%":"c:\wd" iankoulski/win-svn cmd /C "cd c:\wd && svn checkout https://github.build.ge.com/200018807/depend-on-docker/trunk/windows/"
+
+or
+
+    curl -L http://bit.ly/depend-on-docker-windows > create.bat 
+    create.bat "%cd%"
 
 # Customize your depend-on-docker project
 Your depend-on-docker project is created with default settings that work out of the box and creates a Docker image called "myapp". There are several settings that you can customize to make this project fit your needs.
