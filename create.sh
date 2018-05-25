@@ -19,7 +19,7 @@ echo ""
 #echo ""
 #echo ""
 
-docker container run --rm -v ${dest}:/wd iankoulski/svn sh -c "svn checkout --trust-server-cert --non-interactive ${dod_url} /wd && rm -rf /wd/.svn"
+docker container run --rm -d -v ${dest}:/wd iankoulski/svn sh -c "svn checkout --trust-server-cert --non-interactive ${dod_url} /wd && rm -rf /wd/.svn"
 #docker container run --rm -it -v ${dest}:/wd iankoulski/svn sh -c "svn checkout --trust-server-cert --non-interactive ${dod_url} /wd && rm -rf /wd/.svn"
 #docker container run --rm -it -v ${dest}:/wd iankoulski/svn sh -c "svn checkout --trust-server-cert --non-interactive --username ${username} --password ${password} ${dod_url} /wd && rm -rf /wd/.svn"
 
