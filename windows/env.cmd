@@ -7,9 +7,9 @@ rem Note: To set any setting below to blank use the space character
 rem       example: set REGISTRY= 
 
 rem Proxy settings [optional] - set if your network requires a proxy to connect to the Internet
-set http_proxy=http://PITC-Zscaler-US-SanRamon-Shared.proxy.corporate.ge.com:80
-set https_proxy=http://PITC-Zscaler-US-SanRamon-Shared.proxy.corporate.ge.com:80
-set no_proxy=ge.com,localhost
+set http_proxy=
+set https_proxy=
+set no_proxy=localhost
 
 rem Docker image settings
 rem REGISTRY: [optional] - Docker registry path including trailing "/". Example: registry.company.com/demo/
