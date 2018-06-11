@@ -18,7 +18,7 @@ or
 
 or
 
-    curl -L http://bit.ly/depend-on-docker | bash -s -- $(pwd)
+    curl -L http://bit.ly/dodocker | bash -s -- $(pwd)
 
 $(pwd) may be replaced with the desired path where you would like your new depend-on-docker project created
 
@@ -32,7 +32,7 @@ or
 
 or
 
-    curl -L http://bit.ly/depend-on-docker-windows > create.bat 
+    curl -L http://bit.ly/dodockerw > create.bat 
     create.bat "%cd%"
 
 # Customize your depend-on-docker project
