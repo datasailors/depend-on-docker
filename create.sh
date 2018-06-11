@@ -6,7 +6,7 @@ else
 	dest=$1
 fi
 
-export dod_url=https://github.com/iankoulski/depend-on-docker/trunk/linux/
+export dod_url=https://github.com/bhgedigital/depend-on-docker/trunk/linux/
 
 echo ""
 echo "Copying ${dod_url} to ${dest} ..."
