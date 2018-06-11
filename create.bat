@@ -10,5 +10,5 @@ if not exist %dest% (
 	md %dest%
 )
 
-docker container run --rm -d -v "%dest%":"c:\wd" iankoulski/win-svn cmd /C "cd c:\wd && svn checkout https://github.com/iankoulski/depend-on-docker/trunk/windows/"
+docker container run --rm -d -v "%dest%":"c:\wd" bhgedigital/win-svn cmd /C "cd c:\wd && svn checkout https://github.com/bhgedigital/depend-on-docker/trunk/windows/"
 
