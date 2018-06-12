@@ -112,3 +112,12 @@ Stops the container and cleans up its files.
 # Conclusion
 
 Depend on Docker is an easy to use project template that helps start working quickly on any of your projects. It lets you embed the knowledge you have about your software into a container that hides away complexities and makes it easy to build, ship, and run on Linux or Windows, locally, in a data center, and on any cloud. To accomplish all of it, the only dependency you need is Docker!
+
+# Links to well-known Depend-on-Docker projects
+
+Ref # | Project Name | Description | Link
+--- | --- | --- | ---
+1 | `semtk` | Drag and drop SPARQL queries and data ingestion for Virtuoso | [https://github.com/ge-semtk/semtk](https://github.com/ge-semtk/semtk)
+2 | `tree` | You do not need to install the Linux tree command, just run it | [https://github.com/iankoulski/tree](https://github.com/iankoulski/tree)
+3 | `envsubst` | Run the envsubst command in a Linux container | [https://github.com/bhgedigital/envsubst](https://github.com/bhgedigital/envsubst)
+4 | `enigma` | Encrypt and decrypt content using the enigma container | [https://github.com/bhgedigital/enigma](https://github.com/bhgedigital/enigma)
