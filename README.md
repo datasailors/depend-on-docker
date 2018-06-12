@@ -1,3 +1,6 @@
+
+<img alt="Depend on Docker Logo" src="DoLogo.png" align="right" width="25%"/>
+
 # depend-on-docker
 Depend on Docker (DoD) is an open source project that makes any software easy to build, ship, and run!
 It removes complexity by containerizing your executables and all of their dependencies. 
