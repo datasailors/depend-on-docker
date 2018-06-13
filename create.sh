@@ -1,9 +1,11 @@
 #!/bin/bash
 
 if [ -z "$1" ]; then
-	dest=$(pwd)/out
-else
-	dest=$1
+ 	dest=$(pwd)/out
+elif [[ "$1" = /* ]]; then
+ 	dest=$1
+else 
+	dest=$(pwd)/$1
 fi
 
 export dod_url=https://github.com/bhgedigital/depend-on-docker/trunk/linux/
