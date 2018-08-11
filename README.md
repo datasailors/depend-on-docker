@@ -117,7 +117,9 @@ Stops the container and cleans up its files.
 Depend on Docker is an easy to use project template that helps start working quickly on any of your projects. It lets you embed the knowledge you have about your software into a container that hides away complexities and makes it easy to build, ship, and run on Linux or Windows, locally, in a data center, and on any cloud. To accomplish all of it, the only dependency you need is Docker!
 
 # References
+
 DockerCon 2018 Video: [http://bit.ly/dodockercon](http://bit.ly/dodockercon)
+
 DockerCon 2018 Slides: [http://bit.ly/dodslides](http://bit.ly/dodslides)
 
 # Links to well-known Depend-on-Docker projects
