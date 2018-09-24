@@ -24,6 +24,7 @@ or
     curl -L http://bit.ly/dodocker | bash -s -- $(pwd)
 
 $(pwd) may be replaced with the desired path where you would like your new depend-on-docker project created
+If you are behind an Internet proxy, define http_proxyHost and http_proxyPort prior to running the create script. Example: export http_proxyHost=<proxy_hostname>
 
 ## Windows
 
