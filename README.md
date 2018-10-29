@@ -127,6 +127,8 @@ DockerCon 2018 Video: [http://bit.ly/dodockercon](http://bit.ly/dodockercon)
 
 DockerCon 2018 Slides: [http://bit.ly/dodslides](http://bit.ly/dodslides)
 
+Blog: https://blog.docker.com/2018/08/depend-docker-philosophy-baker-hughes-ge-company/
+
 # Links to well-known Depend-on-Docker projects
 
 Ref # | Project Name | Description | Link
