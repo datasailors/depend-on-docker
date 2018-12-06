@@ -27,9 +27,10 @@ $(pwd) may be replaced with the desired path where you would like your new depen
 
 If you are behind an Internet proxy, set environment variables http_proxyHost and http_proxyPort prior to running the create script. Example: export http_proxyHost=<proxy_host>
 
-**`create.sh`** helps create a new depend-on-docker project on Linux or MacOS:
-![dod-linux-create.gif](docs/img/dod-linux-create.gif)
-
+<p align="center">
+<img alt="dod-linux-create.gif" title="Create Depend on Docker project on Linux" src="docs/img/dod-linux-create.gif" width="100%" align="center" />
+</p
+    
 ## Windows
 
     create.bat [new_project_path]
@@ -45,8 +46,9 @@ or
 
 If you are behind an Internet proxy, set environment variables http_proxyHost and http_proxyPort prior to running the create script. Example: set http_proxyHost=<proxy_host>
 
-**`create.bat`** helps create a new depend-on-docker project on Windows:
-![dod-windows-create.gif](docs/img/dod-windows-create.gif)
+<p align=center>
+<img alt="dod-windows-create.gif" title="Create Depend on Docker project on Windows" src="docs/img/dod-windows-create.gif" width="100%" align="center" />
+</p>
 
 # Customize your depend-on-docker project
 Your depend-on-docker project is created with default settings that work out of the box and creates a Docker image called "myapp". There are several settings that you can customize to make this project fit your needs.
