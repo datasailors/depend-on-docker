@@ -3,7 +3,7 @@
 
 # depend-on-docker
 Depend on Docker {DoD} is an open source project that makes any software easy to build, ship, and run!
-It removes complexity by containerizing your executables and all of their dependencies. 
+It removes complexity by containerizing your executables and all of their dependencies.
 
 # Your only dependency
 If you haven't done so already, please install [Docker](https://www.docker.com/get-docker)
@@ -29,7 +29,7 @@ If you are behind an Internet proxy, set environment variables http_proxyHost an
 
 **`Demo:`** Create Linux or MacOS container
 <img alt="dod-linux-create.gif" title="Create Depend on Docker project on Linux" src="docs/img/dod-linux-create.gif" width="100%" align="center">
-    
+
 ## Windows
 
     create.bat [new_project_path]
@@ -40,12 +40,12 @@ or
 
 or
 
-    curl -L http://bit.ly/dodockerw > create.bat 
+    curl -L http://bit.ly/dodockerw > create.bat
     create.bat "%cd%"
 
 If you are behind an Internet proxy, set environment variables http_proxyHost and http_proxyPort prior to running the create script. Example: set http_proxyHost=<proxy_host>
 
-**`Demo:`** Create Windows container 
+**`Demo:`** Create Windows container
 <img alt="dod-windows-create.gif" title="Create Depend on Docker project on Windows" src="docs/img/dod-windows-create.gif" width="100%" align="center">
 
 # Customize your depend-on-docker project
@@ -61,20 +61,20 @@ Edit this file to change the name and version tag of your Docker container image
 ## Container-Root content
 
     Linux:  Container-Root -> / ; Windows: Container-Root -> C:\
-    
+
 Any artifact placed in the Container-Root folder of this project is copied into the container image. Directory Container-Root is copied to the root path within the container image and subdirectories are included, preserving the subdirectory structure. For example, any items placed in Container-Root/opt/myapp will appear under /opt/myapp within the container.
 
 ## Setup script file
 
     Linux: Container-Root/setup.sh, Windows: Container-Root\setup.bat
-    
+
 The setup script file is copied into the root of the container image and executed at build time. Rather than customizing the Dockerfile, the setup script file is a good location for placing all of the project-specific commands you would like to execute when setting up the software in your container image.
 The Dockerfile can be modified to further customize your project, however that is not required.
 
 ## Startup script file
 
     Linux: Container-Root/startup.sh, Windows: Container-Root\startup.bat
-    
+
 The startup script file is available in the root of the container image and is executed at container startup time. Place the command to start your application in this file.
 
 # Use your depend-on-docker project
@@ -121,6 +121,19 @@ This script shows the current status of the Docker container including any mappe
     Linux: ./stop.sh ; Windows: stop.bat
 
 Stops the container and cleans up its files.
+
+## Using depend-on-docker behind a proxy
+
+When creating depend-on-docker project behind a proxy both `http_proxyHost` and `http_proxyPort` should be set in the user's environment. On \*NIX systems, those can be set using:
+
+    export http_proxyHost="YOUR_PROXY_URL"
+    export http_proxyPort="YOUR_PROXY_PORT"
+
+The proxy settings for the docker daemon has also to be set, refer to [How to set Proxy on Docker deamon](https://docs.docker.com/config/daemon/systemd/). If the user decides to create the project using the `curl` command, the variable `http_proxy` and `https_proxy` should also be set, usually it can be done via:
+
+    export http_proxy=$http_proxyHost:$http_proxyPort
+    export https_proxy=$http_proxy  
+
 
 # Conclusion
 
