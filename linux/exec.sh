@@ -3,7 +3,7 @@
 source .env
 
 if [ "$1" == "" ]; then
-	CMD="if [ -e /bin/bash ]; then /bin/bash; else /bin/sh; fi"
+	CMD="sh -c 'if [ -e /bin/bash ]; then /bin/bash; else sh; fi'"
 else
 	CMD=$@
 fi
