@@ -122,6 +122,12 @@ This script shows the current status of the Docker container including any mappe
 
 Stops the container and cleans up its files.
 
+## Test
+
+    Linux: ./test.sh ; Windows: test.bat
+
+Runs within the container all scripts located in Container-Root that have a name starting with "test". Ideally all Depend-on-Docker containers would have at least one test. Tests are useful to validate that the container is working as expected and also to demonstrate what the container does.
+
 # Conclusion
 
 Depend on Docker is an easy to use project template that helps start working quickly on any of your projects. It lets you embed the knowledge you have about your software into a container that hides away complexities and makes it easy to build, ship, and run on Linux or Windows, locally, in a data center, and on any cloud. To accomplish all of it, the only dependency you need is Docker!
