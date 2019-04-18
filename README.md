@@ -150,3 +150,4 @@ Ref # | Project Name | Description | Link
 2 | `tree` | You do not need to install the Linux tree command, just run it | [https://github.com/iankoulski/tree](https://github.com/iankoulski/tree)
 3 | `envsubst` | Run the envsubst command in a Linux container | [https://github.com/bhgedigital/envsubst](https://github.com/bhgedigital/envsubst)
 4 | `enigma` | Encrypt and decrypt content using the enigma container | [https://github.com/bhgedigital/enigma](https://github.com/bhgedigital/enigma)
+5 | `gcp-gpu-monitor` | Monitor usage of your GPUs in Google Cloud | [https://github.com/bhgedigital/gcp-gpu-monitor](https://github.com/bhgedigital/gcp-gpu-monitor)
