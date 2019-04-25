@@ -142,6 +142,8 @@ Blog: https://blog.docker.com/2018/08/depend-docker-philosophy-baker-hughes-ge-c
 
 Microsoft Azure AI 2018 Conference Slides: [http://bit.ly/azureaislides](https://github.com/bhgedigital/depend-on-docker/raw/master/docs/DependOnDocker-MicrosoftAzureAiConf-LasVegas-20181105.pdf)
 
+Google Next 2019 Conference Video: [http://bit.ly/next19video](http://bit.ly/next19video)
+
 # Links to well-known Depend-on-Docker projects
 
 Ref # | Project Name | Description | Link
@@ -151,3 +153,5 @@ Ref # | Project Name | Description | Link
 3 | `envsubst` | Run the envsubst command in a Linux container | [https://github.com/bhgedigital/envsubst](https://github.com/bhgedigital/envsubst)
 4 | `enigma` | Encrypt and decrypt content using the enigma container | [https://github.com/bhgedigital/enigma](https://github.com/bhgedigital/enigma)
 5 | `gcp-gpu-monitor` | Monitor usage of your GPUs in Google Cloud | [https://github.com/bhgedigital/gcp-gpu-monitor](https://github.com/bhgedigital/gcp-gpu-monitor)
+6 | `romario` | REST API for kick-starting Kubeflow pipelines | [https://github.com/bhgedigital/romario](https://github.com/bhgedigital/romario)
+7 | `face-recognition` | An example of Depend on Docker for AI applications | [https://github.com/iankoulski/depend-on-docker-ai](https://github.com/iankoulski/depend-on-docker-ai) 
