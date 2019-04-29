@@ -1,5 +1,5 @@
 
-<img alt="Depend on Docker Logo" src="DoLogo.png" align="right" width="25%"/>
+<img alt="Depend on Docker Logo" src="https://github.com/bhgedigital/depend-on-docker/raw/master/DoLogo.png" align="right" width="25%"/>
 
 # depend-on-docker
 Depend on Docker {DoD} is an open source project that makes any software easy to build, ship, and run!
@@ -28,7 +28,7 @@ $(pwd) may be replaced with the desired path where you would like your new depen
 If you are behind an Internet proxy, set environment variables http_proxyHost and http_proxyPort prior to running the create script. Example: export http_proxyHost=<proxy_host>
 
 **`Demo:`** Create Linux or MacOS container
-<img alt="dod-linux-create.gif" title="Create Depend on Docker project on Linux" src="docs/img/dod-linux-create.gif" width="100%" align="center">
+<img alt="dod-linux-create.gif" title="Create Depend on Docker project on Linux" src="https://github.com/bhgedigital/depend-on-docker/raw/master/docs/img/dod-linux-create.gif" width="100%" align="center">
     
 ## Windows
 
@@ -46,7 +46,7 @@ or
 If you are behind an Internet proxy, set environment variables http_proxyHost and http_proxyPort prior to running the create script. Example: set http_proxyHost=<proxy_host>
 
 **`Demo:`** Create Windows container 
-<img alt="dod-windows-create.gif" title="Create Depend on Docker project on Windows" src="docs/img/dod-windows-create.gif" width="100%" align="center">
+<img alt="dod-windows-create.gif" title="Create Depend on Docker project on Windows" src="https://github.com/bhgedigital/depend-on-docker/raw/master/docs/img/dod-windows-create.gif" width="100%" align="center">
 
 # Customize your depend-on-docker project
 Your depend-on-docker project is created with default settings that work out of the box and creates a Docker image called "myapp". There are several settings that you can customize to make this project fit your needs.
