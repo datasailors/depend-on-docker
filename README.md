@@ -142,7 +142,9 @@ Blog: https://blog.docker.com/2018/08/depend-docker-philosophy-baker-hughes-ge-c
 
 Microsoft Azure AI 2018 Conference Slides: [http://bit.ly/azureaislides](https://github.com/bhgedigital/depend-on-docker/raw/master/docs/DependOnDocker-MicrosoftAzureAiConf-LasVegas-20181105.pdf)
 
-Google Next 2019 Conference Video: [http://bit.ly/next19video](http://bit.ly/next19video)
+Google Next 2019 Analytics Orchestration at Scale Video: [http://bit.ly/analytics-orchestration](http://bit.ly/analytics-orchestration)
+
+Google Next 2019 Democratizing AI Video: [http://bit.ly/democratyzing-analytics](http://bit.ly/democratizing-analytics)
 
 # Links to well-known Depend-on-Docker projects
 
