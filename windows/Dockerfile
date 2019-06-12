@@ -1,4 +1,4 @@
-FROM microsoft/windowsservercore
+FROM mcr.microsoft.com/windows/servercore:1903
 
 MAINTAINER My Name <email@company.com>
 
