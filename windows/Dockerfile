@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/windows/servercore:1903
 
-MAINTAINER My Name <email@company.com>
+LABEL maintainer=<email@company.com>
 
 ARG http_proxy
 ARG https_proxy
